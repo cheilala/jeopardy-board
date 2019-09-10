@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.header {
+  text-align: center;
+}
+
+.app-container {
+  padding: 15px 0px 0px 0px;
+}
+
+.category-row {
+  margin-bottom: 15px;
+}
+
+.question {
+  padding: 15px 0px 0px 0px;
+  width: 150px;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #005b96;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+.question:hover {
+  background-color: #b3cde0;
+  cursor: pointer;
+}
